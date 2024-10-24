@@ -1,0 +1,66 @@
+h1#head1{
+    text-align: center;
+}
+.paragraph{
+    font-family: "Old English Text MT";
+    font-size: 18px;
+}
+div#myDivision{
+    background-color: dodgerblue;
+    margin: 50px;
+    padding: 30px;
+}
+div#myDivision h1{
+    text-align: center;
+    color: white;
+}
+div#test{
+    display: flex;
+    background-color: lightgreen;
+    margin: 50px;
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+div#test h1{
+    margin: 30px;
+}
+div#test img{
+    margin-right: 30px;
+    border-radius: 400px;
+}
+div#main{
+    display: flex;
+}
+div#Advertisement{
+    background-color: red;
+    color: white;
+    margin-right: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 8px 8px 4px grey;
+}
+div#Advertisement img{
+    margin-right: 30px;
+    border-radius: 20px;
+}
+div#Accounting{
+    background-color: blue;
+    color: white;
+    margin-right: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 8px 8px 4px grey;
+}
+div#Payment{
+    background-color: green;
+    color: white;
+    margin-right: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 8px 8px 4px grey;
+}
+div#Advertisement:hover,div#Accounting:hover,div#Payment:hover{
+    background-color: grey;
+}
